@@ -1,0 +1,31 @@
+button {
+  position: absolute;
+  /* right: 12px;
+  top: 6px; */
+  padding: 0.5em;
+  background: #ec4a9b;
+  color: #feffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background 0.15s ease-in-out;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.title_btn {
+  right: 140px;
+  top: -10px;
+}
+
+.id_btn {
+  right: -400px;
+  top: -20px;
+}
+.descr_btn {
+  right: -964px;
+  top: -24px;
+}
+button:hover {
+  background: #f075b2;
+}

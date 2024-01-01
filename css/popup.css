@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  width: 200px;
+}
+
+button {
+  margin-bottom: 5px;
+  width: 100%;
+  color: white;
+  background: linear-gradient(#ca2e2b, #393939);
+  transition: background 0.3s ease;
+  border-width: 0px;
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(#393939, #ca2e2b);
+}
+
+img {
+  margin-bottom: 5px;
+}

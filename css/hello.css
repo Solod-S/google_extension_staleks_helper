@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+}
+.content {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.button-panel {
+  padding: 20px;
+  text-align: center;
+}
+.ok-button {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
